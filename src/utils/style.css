@@ -1,0 +1,151 @@
+/* base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0da38d, #9ffcee);
+  color: #333;
+}
+/* styles for App */
+.app-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 20px 25px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-section {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.add-button {
+  padding: 0.7rem 1rem;
+  border: none;
+  background-color: #6c5ce7;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-button:hover {
+  background-color: #5a4dcf;
+}
+/* styles for Header */
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  color: #444;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #777;
+}
+/* styles for ToDoList */
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+/* styles for ToDoItem */
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.todo-text {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.checkbox {
+  cursor: pointer;
+  position: relative;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #130d47;
+  border-radius: 50%;
+}
+
+.checkbox:checked {
+  background-color: #6756fc;
+}
+
+.checkbox:checked::after {
+  content: "\2713";
+  color: #fff;
+  position: absolute;
+  left: 25%;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+.edit-button,
+.save-button,
+.delete-button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease;
+}
+
+.edit-button {
+  background-color: #00b894;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #019875;
+}
+
+.save-button {
+  background-color: #0984e3;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #067ccf;
+}
+
+.delete-button {
+  background-color: #d63031;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}

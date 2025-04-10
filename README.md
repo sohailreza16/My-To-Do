@@ -26,6 +26,6 @@ If you are developing a production application, we recommend using TypeScript an
 2. To mark the task as completed, click on the checkbox in the task.
 3. To edit a task click on edit button, it will open an input for you, edit the task and press enter or click the save button, it will edit the task.
 4. To remove a task, click on the remove button.
-### GitHub Link
 
+### GitHub Link
 https://github.com/sohailreza16/My-To-Do.git

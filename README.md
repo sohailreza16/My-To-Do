@@ -19,3 +19,13 @@ If you are developing a production application, we recommend using TypeScript an
 3. Install the node_modules folder by typing on terminal: npm install
 4. Run the project by typing on terminal: npm run dev
 5. Click on the server link provided, it will open the project
+
+## HOW TO USE
+
+1. Type the todo task in the input and press enter or click on add button, it will add the task in the list.
+2. To mark the task as completed, click on the checkbox in the task.
+3. To edit a task click on edit button, it will open an input for you, edit the task and press enter or click the save button, it will edit the task.
+4. To remove a task, click on the remove button.
+### GitHub Link
+
+https://github.com/sohailreza16/My-To-Do.git
